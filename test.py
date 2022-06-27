@@ -46,9 +46,9 @@ def open_runescape():
     click_loc = search_for_image(r"Screenshots\login\runescape_start_up.png",r"Screenshots\login\existing_user_login.png") 
     pyautogui.moveTo(click_loc)
     pyautogui.click(click_loc)
-    pyautogui.write('timodegraaf@live.nl', interval = 0.1)
+    pyautogui.write('USER_EMAIL', interval = 0.1)
     pyautogui.press("tab")
-    pyautogui.write('Eetmeer13', interval = 0.1)
+    pyautogui.write('User_PASSWORD', interval = 0.1)
 
     click_loc = search_for_image(r"Screenshots\login\runescape_start_up.png",r"Screenshots\login\world_change_small.PNG")
     pyautogui.moveTo(click_loc)
